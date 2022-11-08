@@ -1,6 +1,6 @@
 # CS-MINOR PROJECT
 
-The following scheduling algorithms will be implemented:
+The following scheduling algorithms have been implemented:
 <ul>
   <li>First-come, first-served (FCFS), which schedules tasks in the order in which they request the CPU.</li>
   <li>Shortest-job-first (SJF), which schedules tasks in order of the length of the tasks’ next CPU burst.</li>
@@ -10,3 +10,8 @@ The following scheduling algorithms will be implemented:
 </ul>
 
 <p>Priorities range from 1 to 10, where a higher numeric value indicates a higher relative priority. For round-robin scheduling, the length of a time quantum is 10 milliseconds.</p>
+
+<p>Additional MAKE File is also created for easy compilation and use this command for running<ul>
+  <li>make fcfs</li>
+  <li>./fcfs <b>[Text FILE]</b></li>
+</ul></p>
